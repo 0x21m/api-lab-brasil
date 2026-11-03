@@ -1,0 +1,57 @@
+{
+  "project_id": "EX-SEARCH",
+  "name": "Consultoria de recrutamento — exemplo",
+  "description": "CRM autorizado de recrutamento executivo. Procurar sinais de demanda, vagas e contexto institucional.",
+  "audiences": [
+    "Headhunter"
+  ],
+  "value_profile": "commercial",
+  "modes": [
+    "improve",
+    "create",
+    "compose",
+    "discover"
+  ],
+  "requested_capabilities": [
+    "jobs",
+    "skills",
+    "labor",
+    "governance"
+  ],
+  "features": [
+    {
+      "id": "F01",
+      "name": "Monitor de vagas de empresas selecionadas",
+      "status": "implemented",
+      "capability_ids": [
+        "jobs"
+      ],
+      "evidence": "Exemplo, não auditoria"
+    },
+    {
+      "id": "F02",
+      "name": "CRM de candidatos autorizado",
+      "status": "implemented",
+      "capability_ids": [],
+      "evidence": "Exemplo, sem dados pessoais no Lab"
+    }
+  ],
+  "first_party_data": [
+    "Lista de empresas autorizadas/selecionadas",
+    "Taxonomia interna"
+  ],
+  "constraints": {
+    "only_no_signup": true,
+    "allow_downloads": true,
+    "commercial_use": true,
+    "allow_sensitive_data": false
+  },
+  "unknowns": [
+    "Cobertura de boards",
+    "Correspondência de empresas"
+  ],
+  "assumptions": [
+    "Cenário demonstrativo, não retrato confirmado de um repositório ou sistema do usuário."
+  ],
+  "inventory_completeness": "partial"
+}

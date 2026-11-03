@@ -1,0 +1,66 @@
+{
+  "project_id": "EX-COMMERCE",
+  "name": "Loja com delivery — exemplo",
+  "description": "E-commerce local com catálogo, checkout e entrega. Melhorar cadastro e planejamento operacional.",
+  "audiences": [
+    "Cliente",
+    "Operador"
+  ],
+  "value_profile": "commercial",
+  "modes": [
+    "improve",
+    "create",
+    "compose",
+    "discover"
+  ],
+  "requested_capabilities": [
+    "address",
+    "calendar",
+    "weather"
+  ],
+  "features": [
+    {
+      "id": "F01",
+      "name": "Checkout e endereço",
+      "status": "implemented",
+      "capability_ids": [
+        "address"
+      ],
+      "evidence": "Exemplo declarado; não inspecionado em código",
+      "source_ids": [
+        "MD-016"
+      ]
+    },
+    {
+      "id": "F02",
+      "name": "Agenda de funcionamento",
+      "status": "implemented",
+      "capability_ids": [
+        "calendar"
+      ],
+      "evidence": "Exemplo declarado"
+    }
+  ],
+  "first_party_data": [
+    "Pedidos",
+    "Área atendida",
+    "Horários"
+  ],
+  "constraints": {
+    "only_no_signup": true,
+    "allow_downloads": false,
+    "commercial_use": true,
+    "must_work_without_provider": true
+  },
+  "unknowns": [
+    "Geocodificação autorizada",
+    "Termos comerciais da previsão"
+  ],
+  "excluded_capabilities": [
+    "medicine"
+  ],
+  "assumptions": [
+    "Cenário demonstrativo, não retrato confirmado de um repositório ou sistema do usuário."
+  ],
+  "inventory_completeness": "partial"
+}

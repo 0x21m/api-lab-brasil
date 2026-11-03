@@ -1,0 +1,12 @@
+{
+  "name": "api-lab-brasil",
+  "owner": { "name": "API Lab Brasil" },
+  "metadata": { "description": "Skill de biblioteca de APIs e dados públicos brasileiros." },
+  "plugins": [
+    {
+      "name": "api-lab",
+      "source": "./",
+      "description": "Biblioteca curada de 428 APIs e fontes de dados públicas brasileiras para agentes."
+    }
+  ]
+}

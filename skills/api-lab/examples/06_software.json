@@ -1,0 +1,45 @@
+{
+  "project_id": "EX-SOFTWARE",
+  "name": "Manutenção de aplicações — exemplo",
+  "description": "Inventário autorizado de pacotes e versões para acompanhar segurança e fim de suporte.",
+  "audiences": [
+    "Equipe técnica"
+  ],
+  "value_profile": "internal",
+  "modes": [
+    "improve",
+    "create",
+    "compose"
+  ],
+  "requested_capabilities": [
+    "security",
+    "lifecycle"
+  ],
+  "features": [
+    {
+      "id": "F01",
+      "name": "Inventário de versões",
+      "status": "implemented",
+      "capability_ids": [
+        "lifecycle"
+      ],
+      "evidence": "Exemplo declarado"
+    }
+  ],
+  "first_party_data": [
+    "SBOM permitido",
+    "Versões comprovadas"
+  ],
+  "constraints": {
+    "only_no_signup": true,
+    "allow_downloads": true,
+    "commercial_use": true
+  },
+  "unknowns": [
+    "Cobertura de dependências transitivas"
+  ],
+  "assumptions": [
+    "Cenário demonstrativo, não retrato confirmado de um repositório ou sistema do usuário."
+  ],
+  "inventory_completeness": "partial"
+}

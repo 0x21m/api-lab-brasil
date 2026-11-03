@@ -1,0 +1,58 @@
+{
+  "project_id": "EX-DATES",
+  "name": "Agenda de passeios — exemplo",
+  "description": "App de roteiros, datas e passeios locais. Enriquecer opções culturais com contexto de clima e calendário.",
+  "audiences": [
+    "Pessoa física"
+  ],
+  "value_profile": "public",
+  "modes": [
+    "improve",
+    "create",
+    "compose",
+    "discover"
+  ],
+  "requested_capabilities": [
+    "tourism",
+    "culture",
+    "calendar",
+    "weather"
+  ],
+  "features": [
+    {
+      "id": "F01",
+      "name": "Agenda de passeios",
+      "status": "implemented",
+      "capability_ids": [
+        "calendar"
+      ],
+      "evidence": "Exemplo declarado"
+    },
+    {
+      "id": "F02",
+      "name": "Lista própria de locais",
+      "status": "implemented",
+      "capability_ids": [
+        "tourism"
+      ],
+      "evidence": "Exemplo declarado"
+    }
+  ],
+  "first_party_data": [
+    "Datas disponíveis",
+    "Locais favoritos"
+  ],
+  "constraints": {
+    "only_no_signup": true,
+    "allow_downloads": true,
+    "commercial_use": false
+  },
+  "unknowns": [
+    "Horários atuais",
+    "Cobertura de eventos locais"
+  ],
+  "assumptions": [
+    "Cenário demonstrativo, não retrato confirmado de um repositório ou sistema do usuário."
+  ],
+  "inventory_completeness": "partial"
+}

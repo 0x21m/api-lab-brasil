@@ -1,0 +1,8 @@
+{
+  "name": "api-lab",
+  "description": "Biblioteca curada de 428 APIs e fontes de dados públicas brasileiras, com receitas, composições e método de decisão de integração.",
+  "version": "5.0.0",
+  "author": { "name": "API Lab Brasil" },
+  "license": "MIT AND CC-BY-4.0",
+  "keywords": ["apis", "dados-abertos", "brasil", "open-data", "skill"]
+}

@@ -1,0 +1,50 @@
+{
+  "project_id": "EX-FINANCE",
+  "name": "ERP financeiro jurídico — exemplo",
+  "description": "Painel interno de receitas e despesas. Avaliar índices e câmbio sem transformar a ferramenta em plataforma de processos.",
+  "audiences": [
+    "Gestor financeiro"
+  ],
+  "value_profile": "internal",
+  "modes": [
+    "improve",
+    "create",
+    "discover"
+  ],
+  "requested_capabilities": [
+    "economy",
+    "currency"
+  ],
+  "features": [
+    {
+      "id": "F01",
+      "name": "Fluxo de caixa e orçamento",
+      "status": "implemented",
+      "capability_ids": [
+        "economy"
+      ],
+      "evidence": "Exemplo; cálculos internos não foram inspecionados"
+    }
+  ],
+  "first_party_data": [
+    "Receitas",
+    "Despesas",
+    "Contratos próprios"
+  ],
+  "constraints": {
+    "only_no_signup": true,
+    "allow_downloads": true,
+    "commercial_use": true
+  },
+  "unknowns": [
+    "Índice previsto em cada contrato"
+  ],
+  "excluded_capabilities": [
+    "jobs",
+    "medicine"
+  ],
+  "assumptions": [
+    "Cenário demonstrativo, não retrato confirmado de um repositório ou sistema do usuário."
+  ],
+  "inventory_completeness": "partial"
+}

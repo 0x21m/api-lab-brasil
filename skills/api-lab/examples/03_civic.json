@@ -1,0 +1,50 @@
+{
+  "project_id": "EX-CIVIC",
+  "name": "Observatório de bairro — exemplo",
+  "description": "Mapa cívico de serviços, acesso e solicitações municipais com código aberto.",
+  "audiences": [
+    "Morador",
+    "Organização social"
+  ],
+  "value_profile": "public",
+  "modes": [
+    "improve",
+    "create",
+    "compose",
+    "discover"
+  ],
+  "requested_capabilities": [
+    "poi",
+    "urban_requests",
+    "mobility",
+    "health_directory"
+  ],
+  "features": [
+    {
+      "id": "F01",
+      "name": "Mapa local",
+      "status": "implemented",
+      "capability_ids": [
+        "poi"
+      ],
+      "evidence": "Exemplo declarado"
+    }
+  ],
+  "first_party_data": [
+    "Verificações de campo sem dados pessoais"
+  ],
+  "constraints": {
+    "only_no_signup": true,
+    "allow_downloads": true,
+    "commercial_use": false
+  },
+  "unknowns": [
+    "Cobertura da cidade",
+    "Identificadores de intervenção"
+  ],
+  "location": "Curitiba / PR; cenário de exemplo",
+  "assumptions": [
+    "Cenário demonstrativo, não retrato confirmado de um repositório ou sistema do usuário."
+  ],
+  "inventory_completeness": "partial"
+}
